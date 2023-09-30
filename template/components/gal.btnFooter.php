@@ -12,7 +12,7 @@ if ($config['button']['force_buzzer']) {
         . $languageService->translate('use_button')
         . '</div>';
 } else {
-    if ($config['picture']['enabled']) {
+    if ($config['gallery']['allow_take_picture']) {
         echo getBoothButton('takePhoto', $config['icons']['take_picture'], 'takePic');
     }
     if ($config['custom']['enabled']) {

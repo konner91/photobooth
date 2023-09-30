@@ -1138,6 +1138,12 @@ $configsetup = [
             'name' => 'gallery[show_date]',
             'value' => $config['gallery']['show_date'],
         ],
+        'gallery_allow_take_picture' => [
+            'view' => 'advanced',
+            'type' => 'checkbox',
+            'name' => 'gallery[allow_take_picture]',
+            'value' => $config['gallery']['allow_take_picture'],
+        ],
         'gallery_date_format' => [
             'view' => 'expert',
             'type' => 'input',

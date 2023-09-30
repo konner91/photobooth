@@ -163,6 +163,7 @@ $config['video']['gif'] = false;
 $config['video']['qr'] = true;
 
 // G A L L E R Y
+$config['gallery']['allow_take_picture'] = true;
 $config['gallery']['enabled'] = true;
 $config['gallery']['newest_first'] = true;
 $config['gallery']['use_slideshow'] = true;
