@@ -35,6 +35,9 @@ const photoboothPreview = (function () {
         photoboothTools.console.logDev('Preview: Changing video mode: ' + mode);
         if (mode === CameraDisplayMode.BACKGROUND) {
             video.css('z-index', 0);
+            video.css('background-image', config.background.defaults);
+            video.css('background-position', 'center center');
+            video.css('background-size', 'cover');
             wrapper.css('background-image', 'none');
             wrapper.css('background-color', 'transparent');
         } else {
