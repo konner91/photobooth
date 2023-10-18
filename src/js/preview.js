@@ -41,7 +41,8 @@ const photoboothPreview = (function () {
             wrapper.css('background-image', 'none');
             wrapper.css('background-color', 'transparent');
         } else {
-            wrapper.css('background-color', config.colors.panel);
+            wrapper.css('background-color', 'transparent');
+            wrapper.css('background-image', config.background.defaults)
             loader.css('background-color', 'transparent');
             video.css('z-index', 99);
         }
@@ -203,7 +204,7 @@ const photoboothPreview = (function () {
     };
 
     api.stopVideo = function () {
-        wrapper.css('background-color', config.colors.panel);
+        wrapper.css('background-color', 'transparent');
         loader.css('background', config.colors.panel);
         loader.css('background-color', config.colors.panel);
         if (api.stream) {
