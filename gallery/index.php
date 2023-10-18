@@ -23,8 +23,11 @@ include PathUtility::getAbsolutePath('template/components/main.head.php');
         onStandaloneGalleryView = true;
     </script>
 
-    <?php include PathUtility::getAbsolutePath('template/send-mail.template.php'); ?>
-    <?php include PathUtility::getAbsolutePath('template/components/main.footer.php'); ?>
+    <?php
+        include PathUtility::getAbsolutePath('template/send-mail.template.php');
+        include PathUtility::getAbsolutePath('template/components/main.footer.php');
+        include PathUtility::getAbsolutePath('template/modal.template.php');
+    ?>
 
     <script type="text/javascript" src="<?=PathUtility::getPublicPath()?>resources/js/preview.js?v=<?php echo $config['photobooth']['version']; ?>"></script>
     <script type="text/javascript" src="<?=PathUtility::getPublicPath()?>resources/js/core.js?v=<?php echo $config['photobooth']['version']; ?>"></script>
