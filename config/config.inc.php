@@ -38,6 +38,9 @@ $config['delete']['no_request'] = false;
 $config['database']['enabled'] = true;
 $config['database']['file'] = 'db';
 
+//RESULT VIEW
+$config['home']['key'] = '';
+
 // F R O N T P A G E
 $config['ui']['show_fork'] = true;
 $config['ui']['skip_welcome'] = false;

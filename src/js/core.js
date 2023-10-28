@@ -1343,6 +1343,13 @@ const photoBooth = (function () {
                 }
 
                 return;
+            } else if (config.home.key && parseInt(config.home.key, 10) === ev.keyCode) {
+                photoboothTools.console.logDev('Button pressed to get back to preview' + ev);
+                ev.preventDefault();
+                ev.stopPropagation();
+
+                photoboothTools.reloadPage();
+                rotaryController.focusSet('#start');
             } else {
                 return;
             }

@@ -212,6 +212,7 @@
   "general:ui_notification_timeout": "Notification time",
   "general:webserver_ip": "IP address of the Photobooth web server",
   "general:webserver_ssid": "Wireless network name (SSID) used to access the photobooth",
+  "general:home_key": "Key to trigger Back button in result view",
   "get_request": "GET request",
   "get_request:get_request_collage": "GET request for collage at countdown",
   "get_request:get_request_countdown": "Send GET request to server at countdown",

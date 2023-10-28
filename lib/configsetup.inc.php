@@ -324,6 +324,13 @@ $configsetup = [
             'name' => 'IMAGESUPLOAD',
             'value' => 'imagesupload-btn',
         ],
+        'home_key' => [
+            'view' => 'basic',
+            'type' => 'input',
+            'name' => 'home[key]',
+            'placeholder' => '',
+            'value' => $config['home']['key'],
+        ],
     ],
     'frontpage' => [
         'view' => 'basic',

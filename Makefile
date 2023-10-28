@@ -6,3 +6,5 @@ start:
 
 stop:
 	docker-compose down -v
+
+rebuild: stop build start

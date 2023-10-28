@@ -176,6 +176,7 @@
   "general:ui_notification_timeout": "Benachrichtigungszeit",
   "general:webserver_ip": "IP-Adresse des Photobooth Webservers",
   "general:webserver_ssid": "Name des drahtlosen Netzwerks (SSID) für den Zugriff auf die Photobooth",
+  "general:home_key": "Taste um Zurück Button in Ergebnisansicht zu betätigen",
   "get_request": "GET-Anfrage",
   "get_request:get_request_collage": "GET-Anfrage bei Countdown für Collage",
   "get_request:get_request_countdown": "GET-Anfrage bei Countdown an Server senden",
